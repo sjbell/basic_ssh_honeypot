@@ -24,3 +24,4 @@ docker build -t basic_honeypot .
 ```
 docker run -v ${PWD}:/usr/src/app -p 2222:2222 basic_honeypot
 ```
+Logs are recorded in the auto-generated ```ssh_honeypot.log``` file
